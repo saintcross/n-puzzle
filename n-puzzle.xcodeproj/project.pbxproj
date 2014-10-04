@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		54B0835819D6EBA9000AD634 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54B0835719D6EBA9000AD634 /* main.cpp */; };
 		54B0835A19D6EBA9000AD634 /* n_puzzle.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54B0835919D6EBA9000AD634 /* n_puzzle.1 */; };
+		54B0836219D6F0A6000AD634 /* PuzzleBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 54B0836019D6F0A6000AD634 /* PuzzleBoard.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		54B0835419D6EBA9000AD634 /* n-puzzle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "n-puzzle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B0835719D6EBA9000AD634 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		54B0835919D6EBA9000AD634 /* n_puzzle.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = n_puzzle.1; sourceTree = "<group>"; };
+		54B0836019D6F0A6000AD634 /* PuzzleBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PuzzleBoard.cpp; sourceTree = "<group>"; };
+		54B0836119D6F0A6000AD634 /* PuzzleBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuzzleBoard.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				54B0835719D6EBA9000AD634 /* main.cpp */,
 				54B0835919D6EBA9000AD634 /* n_puzzle.1 */,
+				54B0836019D6F0A6000AD634 /* PuzzleBoard.cpp */,
+				54B0836119D6F0A6000AD634 /* PuzzleBoard.h */,
 			);
 			path = "n-puzzle";
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B0836219D6F0A6000AD634 /* PuzzleBoard.cpp in Sources */,
 				54B0835819D6EBA9000AD634 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
